@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Quicksand', sans-serif;
+}
+
+
+.flex-container {
+   display: flex;
+   justify-content: center;
+   margin: 40px 80px;
+}
+
+
+.form {
+  
+    max-width: 400px; 
+    align-items: center;
+    flex: 1;
+    padding: 60px;
+    order: 5;
+     color: rgb(43, 196, 196);
+      border-bottom: 1px solid black;
+}
+
+.form-input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: 1px solid rgb(192, 202, 206);
+    border-radius: 5px;
+    background: transparent;
+    color: #000;
+}
+
+.form-input:focus {
+    background: linear-gradient(to bottom, transparent, rgb(206, 221, 220));
+    outline: none;
+}
+
+.pass {
+    position: relative;
+}
+
+.form-section .eye {
+ color: #000;
+ right: 5px;
+ margin-top: 12px;
+ position: absolute;
+ cursor: pointer;
+}
+
+.form-section .eye:hover {
+color: rgb(192, 202, 206);;
+transition:  0.5s ease all;
+}
+
+.input-link {
+    text-align: right;
+    font-size: 12px;
+}
+
+
+
+.form-image {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    min-width: 300px;
+    max-width: 400px;
+    order: 2;
+}
+
+.form-image div {
+    padding: 10px;
+    
+}
+
+.img-container {
+        padding: 20px;
+        margin: auto;       
+}
+
+.img-container div {
+        background-color: #fff;
+        text-align: left;  
+        display: flex;
+}
+
+.img-container p {
+        background-color: #fff;
+        text-align: center;
+       color: rgb(43, 196, 196);
+       margin-top: 50px;
+       font-size: 20px;
+}
+
+.form-image img {
+        width:30px;    
+        display: block;
+}
+
+.lock {
+    position: relative;
+}
+
+.form-section .lock {
+ color: #000;
+ right: 6px;
+ margin-top: 12px;
+ position: absolute;
+ cursor: pointer;
+}
+
+.form-section .lock:hover {
+color: rgb(192, 202, 206);;
+transition:  0.5s ease all;
+}
+
+.pass-confirm {
+    position: relative;
+}
+.form-section .pass-confirm {
+     color: #000;
+ right: 6px;
+ margin-top: 12px;
+ position: absolute;
+ cursor: pointer;
+}
+
+.form-section .pass-confirm:hover {
+color: rgb(192, 202, 206);
+transition:  0.5s ease all;
+}
+
+.form input[type="submit"] {
+    background-color: rgb(44, 138, 138);;
+    border-bottom: none;
+    padding: 12px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgb(43, 196, 196);
+    border-bottom: none;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.img-container div h4 {
+    color: rgb(43, 196, 196);
+    margin: 5px;
+}
+.img-container div h4 span{
+    color: rgb(98, 110, 110);
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    order: 10;
+}
+ .flex-container .log-in{
+     display: flex;
+     align-items: flex-end;
+     bottom: -6% ;
+     position: absolute;
+ }
+ 
+ a{
+     color: rgb(43, 196, 196);
+ }
+
+ /*Terminos y condiciones*/
+ .form-section input[type="checkbox"] { 
+   display: none;
+   
+}
+
+.form-section .justify {
+    margin-left:25px ;
+    margin-top: -20px;
+}
+
+.terms label{
+    font-size: 12px;
+    color: #000;
+   
+}
+
+.terms label:hover {
+        font-size: 13px;
+        color: rgb(98, 110, 110);
+}
+
+.form-section label:before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      background: #fff;
+      border: 2px solid rgb(43, 196, 196);
+      border-radius: 50%;
+      margin-bottom: -6px;
+ 
+}
+
+/*SELECTORES*/
+
+.form-section select {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: 1px solid rgb(192, 202, 206);
+    border-radius: 25px;
+    background: transparent;
+    color: rgb(43, 196, 196);
+    font-size: 16px;
+}
+
+.form-section select #countrys {
+  justify-content: center;
+}
+
+
+.countrys {
+    position: relative;
+}
+
+.form-section .glass {
+ color: rgb(43, 196, 196);
+ left: 20px;
+ margin-top: 15px;
+ position: absolute;
+ cursor: pointer;
+}
+
+.form-section select {
+    text-align: center;
+}
+
+.form-section .glass:hover {
+color: rgb(192, 202, 206);;
+transition:  0.5s ease all;
+}
+
+
+.flex-container .log-in{
+     display: flex;
+     align-items: flex-end;
+     bottom:  -14%;
+     position: absolute;
+ }
+ 
+
+
